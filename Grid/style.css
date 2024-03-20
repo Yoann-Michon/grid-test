@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(240, 239, 208);
+}
+.tableaux{
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.carre{
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px ;
+    background-position: center;
+    background-size: 200px;
+}
+.carre:nth-child(1){
+    background-image: url(./MicrosoftTeams-image_4.png);
+}
+.carre:nth-child(2){
+    background-image: url(./MicrosoftTeams-image_6.png);
+}
+.carre:nth-child(3){
+    background-image: url(./MicrosoftTeams-image_5.png);
+}
+.carre:nth-child(4){
+    background-image: url(./MicrosoftTeams-image_8.png);
+}
+.carre:nth-child(6){
+    background-image: url(./MicrosoftTeams-image_9.png);
+}
+.carre:nth-child(7){
+    background-image: url(./MicrosoftTeams-image_2.png);
+}
+.carre:nth-child(8){
+    background-image: url(./MicrosoftTeams-image_7.png);
+}
+.carre:nth-child(9){
+    background-image: url(./MicrosoftTeams-image_1.png);
+}
+
+.button {
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.2s;
+    background-color: #ffffff;
+  }
+  
+  .button:hover {
+    box-shadow: 0 0 #333;
+    color: #fff;
+    background-color: #333;
+  }
